@@ -25,6 +25,43 @@
 		img {
 			border: 0;
 		}
+
+		.wrapper {
+			background-color: #e5dec7;
+			width: 100%;
+			table-layout: fixed;
+			padding-bottom: 60px;
+		}
+
+		.main {
+			width: 100%;
+			max-width: 600px;
+			background-color: #fff;
+			font-family: sans-serif;
+			color: #4a4a4a;
+			box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+		}
+
+		.social {
+			width: 38px;
+		}
+
+		.social-media {
+			padding: 12px 0 12px 62px;
+		}
+
+		.two-columns {
+			font-size: 0;
+			text-align: center;
+		}
+
+		.two-columns .column {
+			width: 100%;
+			max-width: 300px;
+			display: inline-block;
+			vertical-align: top;
+
+		}
 	</style>
 </head>
 
@@ -35,8 +72,43 @@
 		<table class="main" width="100%">
 
 			<!-- BORDER -->
+			<tr>
+				<td height="8" style="background-color: #000;"></td>
+			</tr>
 
 			<!-- LOGO & SOCIAL MEDIA SECTION -->
+			<tr>
+				<td style="padding: 14px 0 4px;">
+					<table width="100%">
+						<tr>
+							<td class="two-columns">
+
+								<table class="column">
+									<tr>
+										<td style="padding: 0 22px 10px;">
+											<a href="#"><img src="./img/logo.png" alt="logo" title="SailChimp"
+													width="250"></a>
+										</td>
+									</tr>
+								</table>
+
+								<table class="column">
+									<tr>
+										<td class="social-media">
+											<a href="#"><img src="./img/facebook.png" alt="logo" class="social"></a>
+											<a href="#"><img src="./img/twitter.png" alt="logo" class="social"></a>
+											<a href="#"><img src="./img/youtube.png" alt="logo" class="social"></a>
+											<a href="#"><img src="./img/instagram.png" alt="logo" class="social"></a>
+										</td>
+									</tr>
+								</table>
+
+							</td>
+						</tr>
+
+					</table>
+				</td>
+			</tr>
 
 			<!-- BANNER IMAGE -->
 
