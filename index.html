@@ -40,6 +40,7 @@
 			font-family: sans-serif;
 			color: #4a4a4a;
 			box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+			text-align: center;
 		}
 
 		.social {
@@ -60,7 +61,46 @@
 			max-width: 300px;
 			display: inline-block;
 			vertical-align: top;
+		}
 
+		h3 {
+			font-size: "Roboto Condensed", sans-serif;
+			font-size: 28px;
+		}
+
+		.button {
+			background-color: #4a4a4a;
+			text-decoration: none;
+			color: #fff;
+			padding: 12px 20px;
+			font-weight: bold;
+			border-radius: 5px;
+		}
+
+		h4 {
+			font-size: "Roboto Condensed", sans-serif;
+			font-size: 20px;
+		}
+
+		.three-columns {
+			font-size: 0;
+			padding: 35px 0 20px;
+		}
+
+		.three-columns .column {
+			width: 100%;
+			max-width: 200px;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.three-columns .padding {
+			padding: 25px;
+		}
+
+		.three-columns .content {
+			font-size: 15px;
+			line-height: 20px;
 		}
 	</style>
 </head>
@@ -111,14 +151,125 @@
 			</tr>
 
 			<!-- BANNER IMAGE -->
+			<tr>
+				<td>
+					<a href="#">
+						<img src="./img/banner.jpg" alt="" width="600" style="max-width:100%">
+					</a>
+				</td>
+			</tr>
 
 			<!-- TITLE, TEXT & BUTTON -->
+			<tr>
+				<td style="padding: 20px 15px 50px;">
+					<table width="100%">
+						<tr>
+							<td>
+								<h3>HTML Email Template <span style="color:#ca9800">Course</span></h3>
+								<p style="line-height: 23px; font: 15px; padding:0 0 25px;">Lorem ipsum dolor sit amet
+									consectetur adipisicing elit. Distinctio voluptatum totam
+									possimus ut, natus iste voluptates temporibus obcaecati ullam vitae animi eligendi
+									corrupti earum itaque veniam, sint a accusamus dolorum</p>
+								<a href="#" class="button">View Course</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
 
 			<!-- BORDER -->
+			<tr>
+				<td height="2" style="background-color: #000;"></td>
+			</tr>
 
 			<!-- THREE COLUMN SECTION -->
+			<tr>
+				<td>
+
+					<table width="100%">
+						<tr>
+							<td class="three-columns">
+
+								<table class="column">
+									<tr>
+										<td class="padding">
+
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="./img/design.png" alt="" width="150"></a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 5px 0 10px;">
+														<h4>Email Design</h4>
+														<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+															Architecto sit id atque quis.</p>
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="padding">
+
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="./img/marketing.png" alt=""
+																width="150"></a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 5px 0 10px;">
+														<h4>Email MArketing</h4>
+														<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+															Architecto sit id atque quis.</p>
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td class="padding">
+
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="./img/development.png" alt=""
+																width="150"></a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding: 5px 0 10px;">
+														<h4>Development</h4>
+														<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+															Architecto sit id atque quis.</p>
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+
+							</td>
+						</tr>
+					</table>
+
+				</td>
+			</tr>
 
 			<!-- BORDER -->
+			<tr>
+				<td height="2" style="background-color: #000;"></td>
+			</tr>
 
 			<!-- TWO COLUMN SECTION -->
 
